@@ -1,0 +1,42 @@
+header{
+    text-align: right;
+}
+
+
+.header {
+    background-color: aqua;
+    
+    
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: pink;
+    justify-content: space-between;
+}
+
+nav li {
+    list-style: none;
+    
+
+}
+
+.code {
+    font-family: monospace;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    min-width: 80%;
+    right: 0;
+text-align: right;
+    background-color: blue;
+    margin: 0;
+}
