@@ -11,19 +11,21 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
 </head>
 <body>
-    <header class="jumbotron header">
-        <h1>Sarah Hinton: Professional Portfolio</h1>
+    <header class="container-fluid text-sm-center p-5 header">
+        <h1>Sarah McFarland: Professional Portfolio</h1>
         <br>
         <nav>
             <ul>
                 <li>
-                    <a href= "#about-me" class="aboutMe">About Me</a>
+                    <a href= "#about-me" class="aboutMe"><i class="fas fa-hiking"></i> About Me</a>
                 </li>
+                <br>
                 <li>
-                    <a href="#my-projects" class="myWork">My Work</a>
+                    <a href="#my-projects" class="myWork"><i class="fas fa-project-diagram"></i> My Work</a>
                 </li>
+                <br>
                 <li>
-                    <a href="#contact-me" class="contactMe">Contact Me</a>
+                    <a href="#contact-me" class="contactMe"><i class="far fa-address-book"></i> Contact Me</a>
                 </li>        
             </ul>
         </nav> 
@@ -53,33 +55,66 @@
         <br>
 
         <section class=" container-fluid my-projects" id="my-projects" >
-            <div class="">
+            <div>
                 <h2 class="my-projects-header">My Projects</h2>
             </div>
-            <div class="my-projects-img">
-                <a href="https://sarahhn92.github.io/Week-1-HW/"><img class="img-thumbnail" src="assets/Horiseon.jpg" alt="project-screenshot" > </a>
-                <p>Code refactor for accessibility.</p>
+            
+            <div class="row justify-content-center">
                 
+                <div class="project1 col-sm-12 col-md-4">
+                    <div class="my-projects-img">
+                        <a href="https://sarahhn92.github.io/Week-1-HW/"><img class="img-thumbnail" src="assets/Horiseon.jpg" alt="HoriseonScreenshot" > </a>
+                        <p>Code refactor for accessibility.</p>
+                    </div>
+                </div> 
+
+                <div class="project2 col-sm-12 col-md-4">
+                    <div class="my-projects-img">
+                        <a href="https://sarahhn92.github.io/Code-Quiz/"><img class="img-thumbnail" src="assets/QuizScreenshot.png" alt="QuizScreenshot"></a>
+                        <p>A basic quiz about JavaScript.</p>
+                    </div>
+                </div> 
+
+                <div class="project3 col-sm-12 col-md-4">
+                    <div class="my-projects-img">
+                       <a href="https://sarahhn92.github.io/ReaCharity-project/"><img class="img-thumbnail" src="assets/ReaCharity.png" alt="ReaCharityScreenshot"></a> 
+                       <p>Collaborative project using third party API's to recall data to fulfil search criteria.</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <br>
+        <br>
+
+        <section>
+            <div class="resume">
+                <p class="icon"><a href="assets/Resume.pdf"><i class="far fa-file"></a></i></p>
+                <h1>Please click the icon above to view my CV.</h1>
             </div>
         </section>
     </main>
+
+    <br>
+    <br>
        
-    <aside class="sidenav">
+    <footer>
         <section id="contact-me" class="contact-me">
             <div class="">
                 <h2 class="contact-me-header"> Contact Me</h2>
                 <div class="contact-select">
                     <ul>
-                        <li class="email">Email: <a href= mailto:smcfarland2@gmail.com>smcfarland2@gmail.com</a></li>
-                        <li class="phone">Phone: 0439000965</li>
-                        <li class="linkedin">LinkedIn: <a href="https://www.linkedin.com/in/sarah-mcfarland-978404204/"> Sarah McFarland</a> </li>
-                        <li class="github">GitHub: <a href="https://github.com/SarahHn92">SarahHn92</a> </li>
+                        <li class="email"><i class="far fa-envelope"></i> <a href= mailto:smcfarland2@gmail.com>smcfarland2@gmail.com</a></li>
+                        <li class="phone"><i class="fas fa-phone"></i> 0439000965</li>
+                        <li class="linkedin"><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/sarah-mcfarland-978404204/"> Sarah McFarland</a> </li>
+                        <li class="github"><i class="fab fa-github"></i> <a href="https://github.com/SarahHn92">SarahHn92</a> </li>
                 </div>
             </div>
         </section>
-    </aside>
+    </footer>
         
-
+    <script src="https://kit.fontawesome.com/ca22f23350.js" crossorigin="anonymous"></script>
     
     
 </body>
